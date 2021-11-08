@@ -54,7 +54,6 @@ export function RegisterLoginData() {
 
     await AsyncStorage.setItem(dataKey, JSON.stringify(dataFormated));
     navigate('Home');
-    // Save data on AsyncStorage and navigate to 'Home' screen
   }
 
   return (
